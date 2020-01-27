@@ -1,41 +1,53 @@
 import java.util.Scanner;
 
+/**
+ * This class is responsible for passing the userentry to the according method
+ */
 public class ArithmeticController {
 
+    /**
+     * Scanner object that can read entries from the user from the console(System.in)
+     */
     Scanner scanner = new Scanner(System.in);
-    ArithmeticCalculator arithmeticCalculator = new ArithmeticCalculator();
+    /**
+     * This is the ArithmeticUtiliser class, that contains the additional methods needed to process the data correctly
+     */
+    ArithmeticUtiliser arithmeticUtiliser = new ArithmeticUtiliser();
 
-    public String showMenu(String entry){
+    /**
+     * This class shows the menu with all possible methods to the user and gets his response
+     * @return the entered value from the user in the console
+     */
+    public String showMenu(){
         System.out.println("\n".repeat(20));
-        System.out.println("What do you want to do:\n" +
-                "[1] to create a new Arithmetic Expression\n" +
-                "[2] to see the calculation for the selected expression\n" +
-                "[3] to see the selected expression\n" +
-                "[4] to select another expression\n" +
+        System.out.println(arithmeticUtiliser.selectedExpression + "\n" +
+                "What do you want to do:\n" +
+                "[1] to see the calculation for the selected expression\n" +
+                "[2] to create a new Arithmetic Expression\n" +
+                "[3] to select another expression\n" +
                 "[x] to leave the application");
-        entry = scanner.nextLine();
+        String entry = scanner.nextLine();
         return entry;
     }
 
+    /**
+     * This switch case class passes the userentry to the according method in ArithmeticUtiliser
+     * @param entry is the userentry
+     */
     public void switchCase(String entry){
         switch (entry){
             case "1":
-                arithmeticCalculator.createExpression();
+                arithmeticUtiliser.makeCalculation();
                 System.out.println("Press enter to continue");
                 scanner.nextLine();
                 break;
             case "2":
-                arithmeticCalculator.makeCalculation();
+                arithmeticUtiliser.createExpression();
                 System.out.println("Press enter to continue");
                 scanner.nextLine();
                 break;
             case "3":
-                arithmeticCalculator.showStacks();
-                System.out.println("Press enter to continue");
-                scanner.nextLine();
-                break;
-            case "4":
-                arithmeticCalculator.changeExpression();
+                arithmeticUtiliser.changeExpression();
                 System.out.println("Press enter to continue");
                 scanner.nextLine();
                 break;

@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07fe5330-d6e3-4822-9eec-289dc9d02718" name="Default Changelist" comment="" />
+    <list default="true" id="07fe5330-d6e3-4822-9eec-289dc9d02718" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arithmetic_Expression/ArithmeticCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arithmetic_Expression/ArithmeticController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arithmetic_Expression/ArithmeticController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arithmetic_Expression/ArithmeticExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arithmetic_Expression/ArithmeticExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arithmetic_Expression/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arithmetic_Expression/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArithmeticCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArithmeticUtiliser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArithmeticController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArithmeticController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArithmeticExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArithmeticExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +28,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Wi51Mc3pgcwoaS4viKBIbcRLBz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -58,15 +78,17 @@
     </task>
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ArithmeticExpression.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
